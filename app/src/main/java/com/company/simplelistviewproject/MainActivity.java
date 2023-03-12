@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         names.add("Jagger Mills");
         names.add("Sofia Bush");
 
-        adapter=new ArrayAdapter<String>(MainActivity.this,android.R.layout.simple_list_item_1,android.R.id.text1,names);
+        adapter=new ArrayAdapter<String>(MainActivity.this,R.layout.list_item,R.id.textView,names);
 
         listView.setAdapter(adapter);
 
